@@ -11,7 +11,7 @@
 */
 int main(void)
 {
-	char i, a;
+	int i, a;
 
 	for (i = 48; i < 58; i++)
 	{
