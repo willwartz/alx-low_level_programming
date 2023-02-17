@@ -11,7 +11,7 @@
 */
 int main(void)
 {
-	int i, a, j, k;
+	int i, a, j, k, dig1, dig2;
 
 	for (i = 48; i < 58; i++)
 	{
@@ -21,7 +21,10 @@ int main(void)
 			{
 				for (k = 48; k < 58; k++)
 				{
-					if (k > a && i<= j)
+					dig1 = (i*10) + a;
+					dig2 = (j*10) + k;
+
+					if (dig1 < dig2)
 					{
 						putchar(i);
 						putchar(a);
