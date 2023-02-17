@@ -23,7 +23,6 @@ int main(void)
 				{
 					dig1 = (i * 10) + a;
 					dig2 = (j * 10) + k;
-
 					if (dig1 < dig2)
 					{
 						putchar(i);
@@ -31,8 +30,8 @@ int main(void)
 						putchar(' ');
 						putchar(j);
 						putchar(k);
-					if (i == 57 && a == 56)
-						break;
+						if (i == 57 && a == 56)
+							break;
 						putchar(',');
 						putchar(' ');
 					}
