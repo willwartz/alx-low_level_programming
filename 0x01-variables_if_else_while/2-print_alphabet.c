@@ -13,7 +13,6 @@
 */
 int main(void)
 {
-	int i;
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
