@@ -31,8 +31,8 @@ int main(void)
 						putchar(' ');
 						putchar(j);
 						putchar(k);
-						if (i == 57 && a == 56)
-							break;
+					if (i == 57 && a == 56)
+						break;
 						putchar(',');
 						putchar(' ');
 					}
