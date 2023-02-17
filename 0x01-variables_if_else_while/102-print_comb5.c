@@ -21,8 +21,8 @@ int main(void)
 			{
 				for (k = 48; k < 58; k++)
 				{
-					dig1 = (i*10) + a;
-					dig2 = (j*10) + k;
+					dig1 = (i * 10) + a;
+					dig2 = (j * 10) + k;
 
 					if (dig1 < dig2)
 					{
@@ -32,14 +32,10 @@ int main(void)
 						putchar(j);
 						putchar(k);
 						if (i == 57 && a == 56)
-						{
 							break;
-						}
-						else {
-							putchar(',');
-							putchar(' ');
-						}
-						}
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
