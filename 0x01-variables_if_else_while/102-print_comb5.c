@@ -28,8 +28,6 @@ int main(void)
 						putchar(' ');
 						putchar(j);
 						putchar(k);
-						// putchar(',');
-						// putchar(' '); 
 						if (i == 57 && a == 56)
 						{
 							break;
