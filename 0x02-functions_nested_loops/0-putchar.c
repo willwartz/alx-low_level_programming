@@ -11,7 +11,6 @@ int main(void)
 {
     int myStr[] = {95, 112, 117, 116, 99, 104, 97, 114};
     int syz, cnt;
-
     syz = sizeof(myStr) / sizeof(int);
     for (cnt = 0; cnt < syz; cnt++)
     {
