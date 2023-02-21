@@ -1,21 +1,21 @@
 #include "main.h"
+
 /**
- * main - Entry Point
+ * _abs - Computes the absolute value
+ * of an integer.
  *
- * _putchar - Print to output
+ * @i: input number as an integer.
  *
- * Return: Always 0
-*/
-
-int abs(int n)
+ * Return: absolute value
+ */
+int _abs(int i)
 {
-    if (n >= 0)
-    {
-        return(n);
-    }
-    else
-    {
-        return(n * -1);
-    }
+	if (i >= 0)
+	{
+		return (i);
+	}
+	else
+	{
+		return (i * -1);
+	}
 }
-
