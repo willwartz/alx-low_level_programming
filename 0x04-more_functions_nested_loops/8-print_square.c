@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_square - prints # n times.
- * @n: iterating number
+ * print_square - prints # size times.
+ * @size: iterating number
  *
  * _putchar - prints to output
  *
