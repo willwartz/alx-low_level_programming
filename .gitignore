@@ -1,5 +1,3 @@
 
 *.exe
-*/try/
-*/try
-/try/*
+/try
