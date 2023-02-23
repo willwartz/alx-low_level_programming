@@ -2,9 +2,9 @@
 
 /**
  * print_numbers - prints numbers 0 - 9.
- * 
+ *
  * _putchar - prints to output
- *  
+ *
  * Return: multiplication
  */
 
