@@ -2,6 +2,7 @@
 
 /**
  * print_line - prints _ n times.
+ * @n - number of times to iterate
  *
  * _putchar - prints to output
  *
