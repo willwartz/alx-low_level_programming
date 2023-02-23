@@ -2,9 +2,9 @@
 
 /**
  * print_triangle - prints # n times.
- * 
+ *
  * _putchar - prints to output
- *  
+ *
  * Return: no return
  */
 
@@ -14,7 +14,7 @@ void print_triangle(int size)
 
 	for (i = 0; i < size; i++)
 	{
-		for ( a = 1; a < (size - i); a++)
+		for (a = 1; a < (size - i); a++)
 			_putchar(32);
 		for (a-- ; a < size; a++)
 			_putchar(35);
