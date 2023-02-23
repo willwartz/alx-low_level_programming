@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_triangle - prints # 
+ * print_triangle - prints #
  * @size: number to iterate over
  *
  * _putchar - prints to output
