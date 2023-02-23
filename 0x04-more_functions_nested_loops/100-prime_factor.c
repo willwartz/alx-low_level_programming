@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	long long int a = 612852475143;
-	long long int i = 2;
+	long int a = 612852475143;
+	long int i = 2;
 
 	while (i <= a)
 	{
 		if (a % i == 0)
 		{
-			printf("%d ", i);
+			printf("%ld ", i);
 			a /= i;
 		}
 		else
