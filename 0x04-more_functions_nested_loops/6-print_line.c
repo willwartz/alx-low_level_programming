@@ -2,9 +2,9 @@
 
 /**
  * print_line - prints _ n times.
- * 
+ *
  * _putchar - prints to output
- *  
+ *
  * Return: no return
  */
 
