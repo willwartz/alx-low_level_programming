@@ -14,7 +14,7 @@ int main(void)
 	{
 		if (a % i == 0)
 		{
-			printf("%ld ", i);
+			printf("%ld", i);
 			a /= i;
 		}
 		else
