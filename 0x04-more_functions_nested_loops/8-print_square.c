@@ -2,6 +2,7 @@
 
 /**
  * print_square - prints # n times.
+ * @n: iterating number
  *
  * _putchar - prints to output
  *
