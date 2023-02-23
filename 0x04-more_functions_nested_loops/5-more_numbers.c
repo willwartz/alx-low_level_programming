@@ -4,7 +4,7 @@
  * more_numbers - prints numbers 0 - 14, 10 times.
  *
  * _putchar - prints to output
- * 
+ *
  * Return: no return
  */
 
