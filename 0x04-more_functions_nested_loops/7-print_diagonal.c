@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints \ n times.
+ * print_diagonal - prints \ n times
+ * @n: iterating number
  *
  * _putchar - prints to output
  *
