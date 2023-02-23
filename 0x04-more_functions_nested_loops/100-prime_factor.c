@@ -14,12 +14,11 @@ int main(void)
 	{
 		if (a % i == 0)
 		{
-			printf("%ld", i);
 			a /= i;
 		}
 		else
 			i++;
 	}
-	printf("\n");
+	printf("%ld\n", i);
 	return (0);
 }
