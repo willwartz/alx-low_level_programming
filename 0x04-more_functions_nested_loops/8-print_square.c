@@ -2,9 +2,9 @@
 
 /**
  * print_square - prints # n times.
- * 
+ *
  * _putchar - prints to output
- * 
+ *
  * Return: no return
  */
 
