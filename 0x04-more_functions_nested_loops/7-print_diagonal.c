@@ -2,9 +2,9 @@
 
 /**
  * print_diagonal - prints \ n times.
- * 
+ *
  * _putchar - prints to output
- *  
+ * 
  * Return: no return
  */
 
@@ -14,7 +14,7 @@ void print_diagonal(int n)
 
 	for (i = 0; i < n; i++)
 	{
-		for ( a = 0; a < i; a++)
+		for (a = 0; a < i; a++)
 			_putchar(32);
 		_putchar(92);
 		if (i < (n - 1))
