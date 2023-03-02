@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _strncpy - copies the string pointed to by src upto n
  *@n: limit for copying
@@ -9,14 +8,13 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int count = 0;
+	int i;
 
-	while (count < n)
-	{
-		*(dest + count) = *(src + count);
-		if (*(src + count) == '\0')
-			break;
-		count++;
-	}
+	for (i = 0; i < n && src[i] != '\0'; i++)
+		dest[i] = src[i];
+	for ( ; i < n; i++)
+		dest[i] = '\0';
+
 	return (dest);
 }
+
