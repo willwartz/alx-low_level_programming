@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - ,
+ * _memset - fills memory with a constant byte,
  * @s: pointer to memory area.
  * @b: the constant to be set.
  * @n: number of bytes to set
