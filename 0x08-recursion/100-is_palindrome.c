@@ -25,7 +25,7 @@ int compar(char *s, int start, int end)
 	{
 		if (start == end || start == end + 1)
 			return (1);
-		return(compar(s, start + 1, end - 1));
+		return (compar(s, start + 1, end - 1));
 	}
 	return (0);
 }
