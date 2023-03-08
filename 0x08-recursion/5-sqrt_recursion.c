@@ -9,6 +9,7 @@
 int root_finder(int n, int i)
 {
 	int sq = (i * i);
+	
 	if (i <= (n / 2) && sq != n)
 		return (root_finder(n, i + 1));
 	else if (sq == n)
