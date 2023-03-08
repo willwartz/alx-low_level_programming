@@ -2,7 +2,6 @@
 /**
  * root_finder - finds roots.
  * @n: number of interest.
- * @sq: temp square
  * @i: test integer
  * Return: squareroot of n.
  */
