@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	if (argc > 1)
 	{
-		for (i = 0; i < argc; i++)
+		for (i = 1; i < argc; i++)
 		{
 			if (!isdigit(atoi(argv[i])))
 			{
@@ -26,4 +26,5 @@ int main(int argc, char *argv[])
 	}
 	else
 		return (0);
+	return (0);
 }
