@@ -2,3 +2,5 @@
 *.exe
 /try
 *.json
+*.o
+*.o
