@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
  * main - multiplies two numbers.
  * @argc: number of command line arguments.
@@ -13,9 +14,16 @@ int main(int argc, char *argv[])
 	if (argc > 1)
 	{
 		for (i = 0; i < argc; i++)
-			sum += argv[i];
+		{
+			if (!isdigit(argv[i]))
+			{
+				printf("Error\n");
+				return (1);
+			}
+			sum += atoi(argv[i])
+		}
 		printf("%d\n", sum);
 	}
-	
-	return(0);
+	else
+		return(0);
 }
