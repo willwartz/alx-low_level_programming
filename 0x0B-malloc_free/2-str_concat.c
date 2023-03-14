@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
- * _strdup - returns a pointer to a newly allocated space in memory.
- * @str: string.
+ * str_concat - concatenates two strings.
+ * @s1: first string.
+ * @s2: second string.
  *
  * Return: pointer of an array of chars
  */
@@ -22,7 +24,7 @@ char *str_concat(char *s1, char *s2)
         for (j = 0; s1[j] != '\0'; j++)
                 ;
 
-        constr = (char *)malloc(sizeof(char) * (i + j + 1));
+        constr = malloc(sizeof(char) * (i + j + 1));
 
         if (constr == NULL)
                 return (NULL);
