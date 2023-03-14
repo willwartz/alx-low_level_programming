@@ -27,14 +27,16 @@ char *str_concat(char *s1, char *s2)
         constr = malloc(sizeof(char) * (i + j + 1));
 
         if (constr == NULL)
+        {
+                free(constr);
                 return (NULL);
+        }
 
         for (k = 0; k < i; k++)
                 constr[k] = s1[k];
 
         cap = j;
-
-        for (j = 0; j <= cap; j++)
+        for (j = 0; j <= cap; k++, j++)
                 constr[k] = s2[j];
 
         return (constr);
