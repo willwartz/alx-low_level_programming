@@ -5,8 +5,6 @@
  * it with a specific char
  * @c: character.
  * @size: size.
- * @i: iterator.
- * @s: array.
  * Return: pointer to array.
  */
 char *create_array(unsigned int size, char c)
