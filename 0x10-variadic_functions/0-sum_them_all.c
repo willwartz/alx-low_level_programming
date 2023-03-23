@@ -22,5 +22,5 @@ int sum_them_all(const unsigned int n, ...)
 
 	va_end(varlist);
 
-	return (0);
+	return (sum);
 }
