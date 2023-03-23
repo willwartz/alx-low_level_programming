@@ -18,7 +18,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(varlist, n);
 
 	for (i = 0; i < n; i++)
-		sum += va_args(varlist, int);
+		sum += va_arg(varlist, int);
 
 	va_end(varlist);
 
