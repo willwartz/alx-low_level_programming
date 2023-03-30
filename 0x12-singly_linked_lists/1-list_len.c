@@ -1,4 +1,3 @@
-//prints number of elements in linked list
 #include "lists.h"
 
 /**
