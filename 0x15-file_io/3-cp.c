@@ -12,13 +12,13 @@ void copy_file(const char *file_from, const char *file_to)
 	int fd_from, fd_to, closeError;
 	char buff[1024];
 	ssize_t numChars, numWritten;
-	
+
 	fd_from = open(file_from, O_RDONLY);
 	fd_to = open(file_to, O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, 0664);
-	
+
 	if (fd_from == -1)
 		exit(98);
-	
+
 	if (fd_to == -1)
 		exit(99);
 
