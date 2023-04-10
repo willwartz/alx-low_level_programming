@@ -20,7 +20,7 @@ void error_check(int error, char *file)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 		break;
 	case 100:
-		dprintf(STDERR_FILENO, "Error: Can't close fd\n");
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file);
 		break;
 	}
 	exit(error);
@@ -61,11 +61,11 @@ void copy_file(const char *file_from, const char *file_to)
 
 	closeError = close(fd_from);
 	if (closeError == -1)
-		error_check(100, NULL);
+		error_check(100, fd_from);
 
 	closeError = close(fd_to);
 	if (closeError == -1)
-		error_check(100, NULL);
+		error_check(100, fd_to);
 	}
 
 /**
