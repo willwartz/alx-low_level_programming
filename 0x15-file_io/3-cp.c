@@ -19,7 +19,7 @@ void error_check(int error, char *file)
 		case 99:
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
 			break;
-		case 100;
+		case 100:
 			dprintf(STDERR_FILENO, "Error: Can't close fd\n");
 			break;
 	}
