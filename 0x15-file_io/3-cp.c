@@ -10,18 +10,18 @@ void error_check(int error, char *file)
 {
 	switch (error)
 	{
-		case 97:
-			dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
-			break;
-		case 98:
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file);
-			break;
-		case 99:
-			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
-			break;
-		case 100:
-			dprintf(STDERR_FILENO, "Error: Can't close fd\n");
-			break;
+	case 97:
+		dprintf(STDERR_FILENO, "%s\n", "Usage: cp file_from file_to");
+		break;
+	case 98:
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file);
+		break;
+	case 99:
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file);
+		break;
+	case 100:
+		dprintf(STDERR_FILENO, "Error: Can't close fd\n");
+		break;
 	}
 	exit(error);
 }
